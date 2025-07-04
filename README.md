@@ -79,9 +79,12 @@ ultralytics==8.3.81
 paddleocr==2.10.0
 paddlepaddle==3.0.0
 firebase-admin==6.7.0
+python-dotenv==1.0.1
+cryptography==44.0.2
+bcrypt==4.3.0
 ```
 Use this line of code to install all the dependencies needed:
-pip install customtkinter==5.2.2 Pillow==10.2.0 opencv-python==4.11.0.86 pyserial==3.5 torch==2.6.0+cu126 torchvision==0.21.0+cu126 ultralytics==8.3.81 paddleocr==2.10.0 paddlepaddle==3.0.0 firebase-admin==6.7.0
+pip install customtkinter==5.2.2 Pillow==10.2.0 opencv-python==4.11.0.86 pyserial==3.5 torch==2.6.0+cu126 torchvision==0.21.0+cu126 ultralytics==8.3.81 paddleocr==2.10.0 paddlepaddle==3.0.0 firebase-admin==6.7.0 python-dotenv==1.0.1 cryptography==44.0.2 bcrypt==4.3.0
 
 
 > **Note**: For GPU acceleration with PaddleOCR and PyTorch, you may need to install `paddlepaddle-gpu` and a CUDA-compatible version of PyTorch. Refer to their official documentation for instructions.
