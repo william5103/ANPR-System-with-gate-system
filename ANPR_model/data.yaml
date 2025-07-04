@@ -1,0 +1,19 @@
+path: C:/Users/Pang Yong Seng/Desktop/FYP/FYP 2  # Absolute root directory
+train: dataset/License-Plate-Data/train/images  # train images (relative to 'path')
+val: dataset/License-Plate-Data/valid/images  # validation images (relative to 'path')
+test: dataset/License-Plate-Data/test/images  # Path to test images
+
+# Classes
+names:
+  0: license_plate  # class names
+
+# Number of classes
+nc: 1
+
+# Optional Roboflow information
+roboflow:
+  workspace: test-vaxvp
+  project: license-plate-project-adaad
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-vaxvp/license-plate-project-adaad/dataset/1

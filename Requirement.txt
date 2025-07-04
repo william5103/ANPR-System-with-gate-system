@@ -1,0 +1,16 @@
+tk
+pyserial 
+pillow
+numpy
+opencv-python
+customtkinter
+firebase-admin
+python-dotenv
+cryptography
+bcrypt
+torch
+torchvision
+ultralytics
+paddleocr - is 2.10.0
+Install Monsterat into system font
+In Arduino need to have I2C.h 
